@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: mongo-secret
+type: Opaque
+data:
+  mongo-user: bW9uZ291c2Vy # Base64 encoded value of the MongoDB username: mongouser
+  mongo-password: cGFzc3dvcmQ= # Base64 encoded value of the MongoDB password: password
